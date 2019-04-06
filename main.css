@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+
+
+}
+body {
+ background-color: #51eaea;
+ position: relative;
+}
+
+.menu {
+display: inline;
+font-size: 110%;
+color: white;
+font-family: 'Noto Sans JP';
+margin-left: 1.5rem;
+cursor: pointer;
+
+}
+
+.menuPosition {
+position: absolute;
+left: 50%;
+top: 15%;
+}
+
+.menu:hover {
+  color: silver;
+}
+
+.logo {
+width: 15%;
+height: 15%;
+border-radius: 50%;
+display: block;
+padding: 10%;
+
+}
+
+.naslov {
+    text-align: center;
+    font-family: 'Poiret One';
+    font-size: 1.4em;
+    color: white;
+    font-weight: bold;
+}
+header h1 {
+  font-size: 5.5em;
+  font-family: 'Shadows Into Light'
+
+}
