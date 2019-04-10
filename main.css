@@ -1,34 +1,39 @@
 * {
   margin: 0;
   padding: 0;
-
+  max-width: 100%;
 
 }
 body {
  background-color: #51eaea;
  position: relative;
 }
+nav {
+width: 100%;
+height: 7vh;
+background: green;
+position: fixed;
 
-.menu{
 
-display: inline;
-font-size: 110%;
-color: white;
-font-family: 'Noto Sans JP';
-margin-left: 1.5rem;
-cursor: pointer;
+
+}
+
+.menuPosition{
+display: flex;
+margin-left: 60%;
+list-style-type: none;
+margin-top: 0.7%;
 }
 
 .menu a {
 text-decoration: none;
+cursor: pointer;
 color: white;
+font-family: 'Noto Sans JP';
+margin-left: 1.5rem;
+font-size: 1.2rem;
 }
 
-.menuPosition {
-position: fixed;
-left: 50%;
-top: 5%;
-}
 
 .menu a:hover {
   color: purple;
@@ -40,7 +45,8 @@ height: 15%;
 border-radius: 50%;
 display: block;
 clear: both;
-padding: 10%;
+padding: 7%;
+margin-left: 5%;
 }
 
 .naslov {
@@ -49,6 +55,8 @@ padding: 10%;
     font-size: 1.4em;
     color: white;
     font-weight: bold;
+
+
 }
 
 header h1 {
@@ -64,17 +72,32 @@ header h1 {
   clear: both;
   margin-top: 15%;
 } */
+article{
+  margin-top: 30%;
+}
 section {
   margin-left: 0%;
-  width: 70%;
-  margin: 20% auto 0;
+  width: 80%;
+  margin: 10% auto 0;
   text-align: left;
   line-height: 1.5;
   color: white;
+  font-family: 'Comic Sans MS';
+  font-weight: lighter;
+  text-align: justify;
 }
 .imgAboutMe {
   width: 30%;
   float: left;
   margin-right: 1.5rem;
+
+}
+#learned {
+  border-radius: 20%;
+  width: 25%;
+  height: 25%;
+}
+#learning {
+  border-radius: 5%;
 
 }
